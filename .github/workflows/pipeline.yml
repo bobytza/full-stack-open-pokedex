@@ -33,3 +33,5 @@ jobs:
             heroku_app_name: "fullstackpart11" #Must be unique in Heroku
             heroku_email: "b.dumitrana@yahoo.com"
             healthcheck: "https://fullstackpart11.herokuapp.com/health"
+            checkstring: "ok"
+            rollbackonhealthcheckfailed: true
